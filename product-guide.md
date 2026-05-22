@@ -17,6 +17,6 @@
 ## Product principles
 
 - Keep the interface direct, explicit, and honest about what the product can prove.
-- Show unavailable or limited states intentionally instead of hiding important constraints.
-- Keep public claims tied to behavior that exists in the product.
-- Keep private source, operations, and customer information out of public documentation.
+- Show unavailable or limited states clearly instead of hiding important constraints.
+- Keep guide claims tied to behavior that exists in the product.
+- Use Discussions for access questions, confusing steps, and guide feedback.

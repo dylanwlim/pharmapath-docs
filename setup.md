@@ -1,20 +1,21 @@
-# Public Docs Publishing Setup
+# Access and Updates
 
-This private repository publishes `docs-public/` to `dylanwlim/pharmapath-docs`.
+## Website
 
-## Required GitHub Actions secret
+Open [https://pharmapath.org](https://pharmapath.org) for the current product or guide entry point.
 
-This repository uses `PUBLIC_DOCS_REPO_TOKEN` as the publish credential.
+## Discussions
 
-Current setup: the secret is an SSH deploy key private key whose matching public key has write access only to `dylanwlim/pharmapath-docs`. This avoids broad account tokens and does not grant access to the private source repository.
+Use [Discussions](https://github.com/dylanwlim/pharmapath-docs/discussions) for:
 
-If the credential is rotated, create a new deploy key for `dylanwlim/pharmapath-docs` and store the private key in `PUBLIC_DOCS_REPO_TOKEN`. A fine-grained GitHub token with Contents read/write access only to `dylanwlim/pharmapath-docs` is also supported. Do not use a classic or account-wide token.
+- access questions
+- product workflow questions
+- guide corrections
+- stale links or outdated screenshots
+- suggestions for clearer examples
 
-## Workflow behavior
+Start with the welcome thread: [https://github.com/dylanwlim/pharmapath-docs/discussions/1](https://github.com/dylanwlim/pharmapath-docs/discussions/1).
 
-- Runs on pushes to `main` when `docs-public/**` changes.
-- Runs manually through `workflow_dispatch`.
-- Fails closed when `PUBLIC_DOCS_REPO_TOKEN` is missing.
-- Publishes only allowlisted Markdown files from `docs-public/`.
-- Runs a leak check before publishing.
-- Never mirrors the private repository.
+## Update cadence
+
+These guides are checked daily and refresh after product documentation updates. If product behavior changes before the guide catches up, open a Discussion with the page name and the expected correction.

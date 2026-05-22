@@ -1,19 +1,20 @@
 # Build and Run
 
-The source repository for PharmaPath remains private. The notes below are safe public-level orientation for people with source access.
+## Normal access
 
-## Local development
+Most readers should start with the website: [https://pharmapath.org](https://pharmapath.org). Use the guides in this repository for workflow orientation, access notes, and release status.
+
+## Local development orientation
 
 - Use Node.js 24.x and npm.
 - Install dependencies with npm install.
-- Use the private repository setup documentation for local service configuration.
-- Run npm run dev for local development and npm run build for production build validation.
-- Use npm run validate when you need the full private-repo validation sequence.
+- Run npm run dev for local development.
+- Run npm run build or npm run validate before release work.
 
 ## Validation
 
-Use the private repository's documented validation scripts before publishing or deploying source changes. For documentation-only work, verify links, file names, and public-safe language before publishing.
+Before release work, run the validation commands that match the changed surface. For guide-only updates, verify links, headings, and product wording before publishing.
 
-## Public docs publishing
+## Documentation updates
 
-The private source repository contains a docs-only publish workflow. It copies allowlisted Markdown files from `docs-public/` into this public documentation repository and runs a leak check before publishing.
+Guides are published automatically after documentation changes and checked once per day. Use [Discussions](https://github.com/dylanwlim/pharmapath-docs/discussions) for stale pages, access questions, or suggested clarifications.

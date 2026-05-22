@@ -2,10 +2,12 @@
 
 ## 2026-05-22
 
-- Created public documentation repository for PharmaPath.
-- Added product-facing overview, guide, high-level architecture, safe build/run notes, roadmap, changelog, and security/privacy documentation.
-- Added a private-repo publish workflow that syncs only allowlisted Markdown files from `docs-public/`.
+- Created the guide repository for PharmaPath.
+- Added overview, product guide, technology notes, access/run notes, roadmap, changelog, and security/privacy guidance.
+- Enabled Discussions for access questions and guide feedback.
+- Added website and discussion links to the guide landing page.
+- Added daily guide sync support.
 
-## Earlier history
+## Update policy
 
-Earlier product and implementation history remains in the private source repository. Public changelog entries should summarize user-visible changes only and must avoid source internals, private infrastructure, secrets, client-sensitive data, or unreleased proprietary details.
+Changelog entries summarize user-visible guide and product-access changes. Product behavior can move faster than written docs; use [Discussions](https://github.com/dylanwlim/pharmapath-docs/discussions) when a page needs an update.
