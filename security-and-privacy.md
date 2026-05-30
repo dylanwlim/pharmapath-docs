@@ -1,19 +1,13 @@
-# Security and Privacy
+# Security And Privacy
 
-## Reader guidance
+## Public Discussion Guidance
 
-- Medication-related activity can be sensitive. Avoid posting personal health details in Discussions.
-- Use the product as a preparation tool and confirm medical, pricing, transfer, and pickup details directly with qualified providers.
-- Account and alert features should be reviewed with care before relying on them for time-sensitive decisions.
+- Medication access questions can involve personal health details; keep public Discussion posts general.
+- Do not post passwords, payment details, prescription numbers, insurance details, or personal health records in public threads.
+- Use the pharmacy confirmation checklist before relying on any time-sensitive decision.
 
-## Discussions
+## Safe Reporting
 
-- Keep questions focused on product access, workflow guidance, stale docs, and guide improvements.
-- Do not post passwords, credentials, payment details, personal records, health information, portfolio holdings, recordings, or customer data.
-- For account-specific or business-specific help, use the contact or support path provided by the website.
-
-## Responsible use
-
-- Verify time-sensitive, medical, financial, booking, or business-critical information through the appropriate official channel.
-- Treat exported files, screenshots, reports, recordings, and account pages with care before sharing them.
-- Report broken links, confusing instructions, and stale screenshots in Discussions.
+- Keep public reports focused on reproducible public behavior and guide clarity.
+- Do not post exploit details, credentials, account-specific records, or payment data in public threads.
+- Use the public contact, booking, support, or official app path when a question involves an account, appointment, health, financial, production, or business-critical detail.

@@ -1,20 +1,20 @@
-# Build and Run
+# Access Guide
 
-## Normal access
+## Open The Public Surface
 
-Most readers should start with the website: [https://pharmapath.org](https://pharmapath.org). Use the guides in this repository for workflow orientation, access notes, and release status.
+- Public site: [https://pharmapath.org](https://pharmapath.org)
+- Discussions: [https://github.com/dylanwlim/pharmapath-docs/discussions](https://github.com/dylanwlim/pharmapath-docs/discussions)
 
-## Local development orientation
+## Use The Current Flow
 
-- Use Node.js 24.x and npm.
-- Install dependencies with npm install.
-- Run npm run dev for local development.
-- Run npm run build or npm run validate before release work.
+1. Open the public site and choose Pharmacy Finder or Medication Lookup.
+2. Use location and medication context to narrow the next outreach step.
+3. Call the pharmacy to confirm final details before making a decision.
 
-## Validation
+## Current Availability
 
-Before release work, run the validation commands that match the changed surface. For guide-only updates, verify links, headings, and product wording before publishing.
+Public homepage, Pharmacy Finder, Medication Lookup, pricing/navigation links, login/register links, FAQ content, and product update signup are live.
 
-## Documentation updates
+## Automated Public Docs
 
-Guides are published automatically after documentation changes and checked once per day. Use [Discussions](https://github.com/dylanwlim/pharmapath-docs/discussions) for stale pages, access questions, or suggested clarifications.
+The publish workflow runs on main-branch updates, manual dispatch, and a daily schedule. It refreshes `assets/homepage.png`, validates the public guide set, and publishes the files to the public docs repository.

@@ -1,16 +1,13 @@
 # Roadmap
 
-## Current direction
+This roadmap covers public-facing guide and user-surface work only.
 
-PharmaPath is active and the guides track user-visible behavior, access paths, and product status.
+## Current Priorities
 
-## Near-term priorities
+- Keep public copy accurate around PharmaPath's call-planning boundaries.
+- Improve the finder and medication guidance as supported coverage expands.
+- Keep the public docs aligned with visible site flows and FAQ language.
 
-- Keep search guidance truthful and avoid unavailable live-inventory claims.
-- Continue improving medication context, watchlist clarity, and alert management.
-- Strengthen account security and privacy-preserving report flows.
-- Expand education around where direct pharmacy confirmation remains required.
+## Documentation Rule
 
-## Feedback
-
-Use [Discussions](https://github.com/dylanwlim/pharmapath-docs/discussions) to ask questions, report stale guide steps, or suggest roadmap clarifications.
+When a user-visible public flow changes, update the matching guide page and changelog entry in the same source-repo pass. The daily workflow will still refresh the homepage screenshot, but guide text should describe only behavior that is actually available to public users.

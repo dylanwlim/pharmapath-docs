@@ -1,22 +1,24 @@
 # Product Guide
 
-## User experience
+Use this page as the practical user manual for the public surface that is available now.
 
-- Search for nearby pharmacies in supported areas and decide who to call first.
-- Review medication details such as shortage, recall, manufacturer, and formulation context.
-- Use watchlist and alert surfaces to keep important medication context organized.
-- Confirm availability, pickup timing, pricing, and transfers directly with the pharmacy.
+## Main Flow
 
-## Main workflows
+1. Open the public site and choose Pharmacy Finder or Medication Lookup.
+2. Use location and medication context to narrow the next outreach step.
+3. Call the pharmacy to confirm final details before making a decision.
 
-- Pharmacy Finder: enter a medication and location, review a shortlist, and call pharmacies directly.
-- Medication Lookup: inspect medication context when the medication itself is the hard question.
-- Watchlist and alerts: save medication checks and review notification preferences from account surfaces.
-- Methodology and trust pages: understand what PharmaPath can and cannot claim.
+## Current Actions
 
-## Product principles
+| Area | Current public flow |
+| --- | --- |
+| Build a pharmacy shortlist | Use Pharmacy Finder to compare nearby listings in supported areas before deciding who to call first. |
+| Review medication context | Use Medication Lookup for shortage, formulation, manufacturer, and recall context before calling. |
+| Prepare the call | Use the public checklist language to confirm stock, pickup timing, final price, and transfer details with the pharmacy. |
+| Follow updates | Choose weekly or monthly product update emails from the public signup form. |
 
-- Keep the interface direct, explicit, and honest about what the product can prove.
-- Show unavailable or limited states clearly instead of hiding important constraints.
-- Keep guide claims tied to behavior that exists in the product.
-- Use Discussions for access questions, confusing steps, and guide feedback.
+## Notes For Use
+
+- Finder flow: The public finder organizes supported nearby pharmacy listings around call-readiness rather than claiming live store inventory.
+- Medication flow: The lookup flow presents medication-level context so users can plan a more informed pharmacy call.
+- Confirmation boundary: The site keeps final pharmacy-specific facts in the user call workflow, where the pharmacy can confirm the actual answer.

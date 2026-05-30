@@ -1,21 +1,19 @@
 # How It Works
 
-## Product structure
+PharmaPath is documented here from the public user's point of view.
 
-- Guidance pages explain the product, methodology, privacy, and trust posture.
-- Search surfaces guide pharmacy and medication workflows.
-- Account surfaces organize saved searches, reports, watchlist items, and alert settings.
-- Operational checks focus on healthcare-sensitive accuracy and truthful user messaging.
+## Finder flow
 
-## Technology
+The public finder organizes supported nearby pharmacy listings around call-readiness rather than claiming live store inventory.
 
-- Next.js App Router, React, TypeScript, and Tailwind CSS.
-- Firebase-backed account flows and passkey support at a product level.
-- Server-side integrations for pharmacy search, medication context, notifications, and mail workflows.
-- Focused validation scripts for pharmacy search, notifications, passkeys, medication context, linting, type checking, tests, and builds.
+## Medication flow
 
-## Update flow
+The lookup flow presents medication-level context so users can plan a more informed pharmacy call.
 
-- Product documentation changes are published to this guide repository automatically.
-- A daily sync checks for guide updates after product work lands.
-- Manual updates can also be published when a guide needs an immediate correction.
+## Confirmation boundary
+
+The site keeps final pharmacy-specific facts in the user call workflow, where the pharmacy can confirm the actual answer.
+
+## Publishing Model
+
+The public guide files live under `docs-public/` in the source repository. The publishing workflow captures the current homepage screenshot, validates the public docs allowlist, and mirrors the result into `dylanwlim/pharmapath-docs`.

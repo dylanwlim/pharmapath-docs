@@ -1,21 +1,22 @@
 # Overview
 
-## What PharmaPath does
+PharmaPath helps people decide which nearby pharmacies are worth calling first and review medication context before outreach. The public site is careful about boundaries: it helps narrow the next step, while final stock, timing, pricing, substitution, and transfer details still come directly from the pharmacy.
 
-PharmaPath helps people build a better first-call pharmacy shortlist and review medication-access context before they make a decision. It is designed to be useful without implying live stock, pickup timing, final price, or transfer success.
+## Public Surface
 
-## Who it is for
+Public homepage, Pharmacy Finder, Medication Lookup, pricing/navigation links, login/register links, FAQ content, and product update signup are live.
 
-- Patients and caregivers who need a calmer starting point for pharmacy calls.
-- Prescribers or care coordinators who want medication context nearby before recommending next steps.
-- Reviewers evaluating a healthcare access workflow from a user experience perspective.
+## Current Public Actions
 
-## Access
+| Area | Current public flow |
+| --- | --- |
+| Build a pharmacy shortlist | Use Pharmacy Finder to compare nearby listings in supported areas before deciding who to call first. |
+| Review medication context | Use Medication Lookup for shortage, formulation, manufacturer, and recall context before calling. |
+| Prepare the call | Use the public checklist language to confirm stock, pickup timing, final price, and transfer details with the pharmacy. |
+| Follow updates | Choose weekly or monthly product update emails from the public signup form. |
 
-- Website: [https://pharmapath.org](https://pharmapath.org)
-- Discussions: [https://github.com/dylanwlim/pharmapath-docs/discussions](https://github.com/dylanwlim/pharmapath-docs/discussions)
-- Welcome thread: [https://github.com/dylanwlim/pharmapath-docs/discussions/1](https://github.com/dylanwlim/pharmapath-docs/discussions/1)
+## Best First Step
 
-## Guide freshness
-
-These guides refresh after product documentation updates and are checked on a daily sync. Product behavior can move faster than written guides, so use Discussions to flag anything that looks out of date.
+1. Open the public site and choose Pharmacy Finder or Medication Lookup.
+2. Use location and medication context to narrow the next outreach step.
+3. Call the pharmacy to confirm final details before making a decision.
