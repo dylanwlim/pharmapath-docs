@@ -10,4 +10,4 @@ This roadmap covers public-facing guide and user-surface work only.
 
 ## Documentation Rule
 
-When a user-visible public flow changes, update the matching guide page and changelog entry in the same source-repo pass. The daily workflow will still refresh the homepage screenshot, but guide text should describe only behavior that is actually available to public users.
+When a user-visible public flow changes, update the matching guide page and changelog entry in the same source-repo pass. Guide text should describe only behavior that is actually available to public users.
