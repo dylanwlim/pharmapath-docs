@@ -4,47 +4,47 @@
   <a href="https://pharmapath.org"><img src="assets/homepage.png" alt="PharmaPath homepage screenshot" width="900"></a>
 </p>
 
-<p align="center"><strong>Pharmacy call guidance and medication-access context.</strong></p>
+![docs](https://img.shields.io/badge/documentation-public-111111?style=flat-square) ![live](https://img.shields.io/badge/live-verified-0f766e?style=flat-square) ![source](https://img.shields.io/badge/source-private-111111?style=flat-square)
 
-<p align="center">
-  <a href="https://pharmapath.org">Open the public site</a> ·
-  <a href="product-guide.md">Product guide</a> ·
-  <a href="changelog.md">Changelog</a> ·
-  <a href="https://github.com/dylanwlim/pharmapath-docs/discussions">Discussions</a>
-</p>
+Public guide for PharmaPath, a medication and pharmacy-pathway tool.
 
-PharmaPath helps people decide which nearby pharmacies are worth calling first and review medication context before outreach. The public site is careful about boundaries: it helps narrow the next step, while final stock, timing, pricing, substitution, and transfer details still come directly from the pharmacy.
+**Live:** [https://pharmapath.org](https://pharmapath.org)
 
-## What You Can Do Today
+**Status:** Live public product surface.
 
-| Area | Current public flow |
-| --- | --- |
-| Build a pharmacy shortlist | Use Pharmacy Finder to compare nearby listings in supported areas before deciding who to call first. |
-| Review medication context | Use Medication Lookup for shortage, formulation, manufacturer, and recall context before calling. |
-| Prepare the call | Use the public checklist language to confirm stock, pickup timing, final price, and transfer details with the pharmacy. |
-| Follow updates | Choose weekly or monthly product update emails from the public signup form. |
+## What It Does
 
-## Start Here
+- Helps users review medication and pharmacy-pathway context from the public product surface.
+- Frames the next outreach step while leaving final stock, timing, pricing, substitutions, and care decisions to pharmacies and clinicians.
+- Keeps public documentation focused on use, scope, boundaries, and support.
 
-1. Open the public site and choose Pharmacy Finder or Medication Lookup.
-2. Use location and medication context to narrow the next outreach step.
-3. Call the pharmacy to confirm final details before making a decision.
+## Who It Is For
 
-## Guide Index
+People comparing medication-access next steps before contacting pharmacies or care teams.
 
-- [Overview](overview.md)
-- [Product guide](product-guide.md)
-- [How it works](how-it-works.md)
-- [Access guide](build-and-run.md)
-- [Roadmap](roadmap.md)
-- [Changelog](changelog.md)
-- [Security and privacy](security-and-privacy.md)
-- [Access and updates](setup.md)
+## Key Features
 
-## Current Status
+- Medication context
+- Pharmacy-pathway guidance
+- Call preparation
+- Public product updates
 
-Public homepage, Pharmacy Finder, Medication Lookup, pricing/navigation links, login/register links, FAQ content, and product update signup are live.
+## Public Docs
 
-## Updates
+- [Overview](docs/overview.md)
+- [Getting started](docs/getting-started.md)
+- [FAQ](docs/faq.md)
+- [Data handling](docs/data-handling.md)
+- [Changelog](CHANGELOG.md)
+- [Security](SECURITY.md)
+- [Contributing](CONTRIBUTING.md)
 
-Public docs updates are reviewed from the source guide files before they are mirrored here. Each refresh keeps the homepage screenshot, approved guide set, and public changelog aligned with the current user-visible surface.
+## Privacy And Source Code
+
+Production source code, private implementation details, secrets, internal routes, proprietary logic, and non-public data are intentionally omitted. This repository documents only the public product surface, safe usage notes, and support paths.
+
+## Contact
+
+- Website: [https://dylanwlim.com](https://dylanwlim.com)
+- GitHub: [https://github.com/dylanwlim](https://github.com/dylanwlim)
+- Email: [dylan@wlim.work](mailto:dylan@wlim.work)

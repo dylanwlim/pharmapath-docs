@@ -3,21 +3,16 @@
 ## Public Entry Points
 
 - Public site: [https://pharmapath.org](https://pharmapath.org)
-- Public discussions: [https://github.com/dylanwlim/pharmapath-docs/discussions](https://github.com/dylanwlim/pharmapath-docs/discussions)
+- Contact: [dylan@wlim.work](mailto:dylan@wlim.work)
 
 ## Current Use
 
-1. Open the public site and choose Pharmacy Finder or Medication Lookup.
-2. Use location and medication context to narrow the next outreach step.
-3. Call the pharmacy to confirm final details before making a decision.
+1. Open the live site.
+2. Choose the public flow that matches the medication or pharmacy question.
+3. Confirm final medical, stock, price, and transfer details with the appropriate licensed party.
 
 ## How These Docs Stay Current
 
-- Source guide files live under `docs-public/`.
-- Public docs publishing is manual while automatic publishing is paused.
-- Each refresh should capture a current homepage screenshot before publishing.
-- Publishing uses only the approved guide files and homepage screenshot asset.
-
-## Feedback
-
-Open a Discussion with the guide page name, the unclear section, and the public behavior you expected the guide to describe.
+- Public docs are reviewed before publication.
+- Screenshots should show only already-public product surfaces.
+- Updates should not include private source, private implementation details, secrets, customer data, or internal workflow notes.

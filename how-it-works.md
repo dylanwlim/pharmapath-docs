@@ -2,18 +2,12 @@
 
 PharmaPath is documented here from the public user's point of view.
 
-## Finder flow
+## Public Product Model
 
-The public finder organizes supported nearby pharmacy listings around call-readiness rather than claiming live store inventory.
+- Helps users review medication and pharmacy-pathway context from the public product surface.
+- Frames the next outreach step while leaving final stock, timing, pricing, substitutions, and care decisions to pharmacies and clinicians.
+- Keeps public documentation focused on use, scope, boundaries, and support.
 
-## Medication flow
+## Privacy Boundary
 
-The lookup flow presents medication-level context so users can plan a more informed pharmacy call.
-
-## Confirmation boundary
-
-The site keeps final pharmacy-specific facts in the user call workflow, where the pharmacy can confirm the actual answer.
-
-## Publishing Model
-
-The public guide files live under `docs-public/` in the source repository. The publishing workflow captures the current homepage screenshot, validates the public docs allowlist, and mirrors the result into `dylanwlim/pharmapath-docs`.
+The public docs describe visible product behavior and safe support paths only. They do not document private source code, internal systems, secrets, proprietary logic, or non-public data.

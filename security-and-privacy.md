@@ -1,13 +1,8 @@
 # Security And Privacy
 
-## Public Discussion Guidance
+See the current public docs:
 
-- Medication access questions can involve personal health details; keep public Discussion posts general.
-- Do not post passwords, payment details, prescription numbers, insurance details, or personal health records in public threads.
-- Use the pharmacy confirmation checklist before relying on any time-sensitive decision.
+- [Security](SECURITY.md)
+- [Data handling](docs/data-handling.md)
 
-## Safe Reporting
-
-- Keep public reports focused on reproducible public behavior and guide clarity.
-- Do not post exploit details, credentials, account-specific records, or payment data in public threads.
-- Use the public contact, booking, support, or official app path when a question involves an account, appointment, health, financial, production, or business-critical detail.
+Avoid posting personal health information, prescription details, insurance information, or pharmacy account data in public GitHub issues or pull requests.

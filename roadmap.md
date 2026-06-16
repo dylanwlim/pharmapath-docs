@@ -1,13 +1,13 @@
 # Roadmap
 
-This roadmap covers public-facing guide and user-surface work only.
+This public roadmap stays intentionally high level.
 
-## Current Priorities
+## Current
 
-- Keep public copy accurate around PharmaPath's call-planning boundaries.
-- Improve the finder and medication guidance as supported coverage expands.
-- Keep the public docs aligned with visible site flows and FAQ language.
+- Keep the live product surface available at [https://pharmapath.org](https://pharmapath.org).
+- Keep public docs accurate, concise, and free of private implementation details.
 
-## Documentation Rule
+## Next
 
-When a user-visible public flow changes, update the matching guide page and changelog entry in the same source-repo pass. Guide text should describe only behavior that is actually available to public users.
+- Update docs when the public product surface changes.
+- Fix broken links or stale public wording as they are found.
