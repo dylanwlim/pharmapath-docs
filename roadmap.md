@@ -1,13 +1,13 @@
 # Roadmap
 
-This public roadmap stays intentionally high level.
+This roadmap focuses on what helps users understand and use PharmaPath.
 
-## Current
+## Current Focus
 
-- Keep the live product surface available at [https://pharmapath.org](https://pharmapath.org).
-- Keep public docs accurate, concise, and free of private implementation details.
+- Keep medication-access guidance clear and cautious.
+- Keep the live product notes aligned with current user flows.
 
-## Next
+## Up Next
 
-- Update docs when the public product surface changes.
-- Fix broken links or stale public wording as they are found.
+- Improve call-preparation guidance.
+- Refresh product notes as live workflows change.

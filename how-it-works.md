@@ -1,13 +1,20 @@
 # How It Works
 
-PharmaPath is documented here from the public user's point of view.
+PharmaPath is easiest to understand from the live product first. This guide gives you a quick map of the current user experience.
 
-## Public Product Model
+## User Flow
 
-- Helps users review medication and pharmacy-pathway context from the public product surface.
-- Frames the next outreach step while leaving final stock, timing, pricing, substitutions, and care decisions to pharmacies and clinicians.
-- Keeps public documentation focused on use, scope, boundaries, and support.
+1. Open the live PharmaPath site.
+2. Choose the flow that matches your medication or pharmacy question.
+3. Confirm stock, pricing, substitutions, transfers, and care decisions with the appropriate licensed party.
 
-## Privacy Boundary
+## What To Look For
 
-The public docs describe visible product behavior and safe support paths only. They do not document private source code, internal systems, secrets, proprietary logic, or non-public data.
+- Medication context
+- Pharmacy-pathway guidance
+- Call preparation
+- Product updates
+
+## Support
+
+For corrections or questions, email [dylan@wlim.work](mailto:dylan@wlim.work).

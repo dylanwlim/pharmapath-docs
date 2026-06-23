@@ -1,18 +1,19 @@
-# Access And Updates
+# Setup And Access
 
-## Public Entry Points
+## Open The Product
 
-- Public site: [https://pharmapath.org](https://pharmapath.org)
-- Contact: [dylan@wlim.work](mailto:dylan@wlim.work)
+[https://pharmapath.org](https://pharmapath.org)
 
-## Current Use
+## Current Access
 
-1. Open the live site.
-2. Choose the public flow that matches the medication or pharmacy question.
-3. Confirm final medical, stock, price, and transfer details with the appropriate licensed party.
+Live medication and pharmacy-pathway product.
 
-## How These Docs Stay Current
+## Getting Started
 
-- Public docs are reviewed before publication.
-- Screenshots should show only already-public product surfaces.
-- Updates should not include private source, private implementation details, secrets, customer data, or internal workflow notes.
+1. Open the live PharmaPath site.
+2. Choose the flow that matches your medication or pharmacy question.
+3. Confirm stock, pricing, substitutions, transfers, and care decisions with the appropriate licensed party.
+
+## Need Help
+
+For corrections or questions, email [dylan@wlim.work](mailto:dylan@wlim.work). Include the page URL, the action you were trying, and your browser or device when that helps explain the issue.

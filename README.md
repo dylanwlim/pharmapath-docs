@@ -4,47 +4,33 @@
   <a href="https://pharmapath.org"><img src="assets/homepage.png" alt="PharmaPath homepage screenshot" width="900"></a>
 </p>
 
-![docs](https://img.shields.io/badge/documentation-public-111111?style=flat-square) ![live](https://img.shields.io/badge/live-verified-0f766e?style=flat-square) ![source](https://img.shields.io/badge/source-private-111111?style=flat-square)
+A guide to PharmaPath, which helps users organize medication and pharmacy-pathway context before contacting pharmacies or care teams.
 
-Public guide for PharmaPath, a medication and pharmacy-pathway tool.
+**Live site:** [https://pharmapath.org](https://pharmapath.org)
 
-**Live:** [https://pharmapath.org](https://pharmapath.org)
+**Status:** Live medication and pharmacy-pathway product.
 
-**Status:** Live public product surface.
+## Start Here
 
-## What It Does
+- [Product guide](product-guide.md)
+- [How it works](how-it-works.md)
+- [Setup and access](setup.md)
+- [FAQ](faq.md)
+- [Security and privacy](security-and-privacy.md)
+- [Roadmap](roadmap.md)
+- [Changelog](changelog.md)
 
-- Helps users review medication and pharmacy-pathway context from the public product surface.
-- Frames the next outreach step while leaving final stock, timing, pricing, substitutions, and care decisions to pharmacies and clinicians.
-- Keeps public documentation focused on use, scope, boundaries, and support.
-
-## Who It Is For
-
-People comparing medication-access next steps before contacting pharmacies or care teams.
-
-## Key Features
+## What You Can Do
 
 - Medication context
 - Pharmacy-pathway guidance
 - Call preparation
-- Public product updates
+- Product updates
 
-## Public Docs
+## Who It Helps
 
-- [Overview](docs/overview.md)
-- [Getting started](docs/getting-started.md)
-- [FAQ](docs/faq.md)
-- [Data handling](docs/data-handling.md)
-- [Changelog](CHANGELOG.md)
-- [Security](SECURITY.md)
-- [Contributing](CONTRIBUTING.md)
+People comparing medication-access next steps before contacting pharmacies or clinicians.
 
-## Privacy And Source Code
+## Get Help
 
-Production source code, private implementation details, secrets, internal routes, proprietary logic, and non-public data are intentionally omitted. This repository documents only the public product surface, safe usage notes, and support paths.
-
-## Contact
-
-- Website: [https://dylanwlim.com](https://dylanwlim.com)
-- GitHub: [https://github.com/dylanwlim](https://github.com/dylanwlim)
-- Email: [dylan@wlim.work](mailto:dylan@wlim.work)
+For corrections or questions, email [dylan@wlim.work](mailto:dylan@wlim.work).
