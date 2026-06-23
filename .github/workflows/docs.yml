@@ -1,0 +1,72 @@
+name: Docs Check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: docs-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  docs-check:
+    name: Docs Check
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Validate public docs
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          required=(
+            README.md
+            product-guide.md
+            how-it-works.md
+            setup.md
+            faq.md
+            security-and-privacy.md
+            roadmap.md
+            changelog.md
+            assets/homepage.png
+          )
+
+          for file in "${required[@]}"; do
+            if [ ! -f "$file" ]; then
+              echo "::error::Missing $file"
+              exit 1
+            fi
+          done
+
+          while IFS= read -r file; do
+            case "$file" in
+              ./.git/*|./.github/*)
+                ;;
+              ./README.md|./product-guide.md|./how-it-works.md|./setup.md|./faq.md|./security-and-privacy.md|./roadmap.md|./changelog.md|./assets/homepage.png)
+                ;;
+              *)
+                echo "::error::Unexpected public docs file: ${file#./}"
+                exit 1
+                ;;
+            esac
+          done < <(find . -type f | sort)
+
+          if [ ! -s assets/homepage.png ]; then
+            echo "::error::assets/homepage.png is empty."
+            exit 1
+          fi
+
+          if grep -RInE --include='*.md' '(AGENTS[.]md|docs-public|intentionally omitted|public docs mirror|source-boundary|maintenance checklist)' .; then
+            echo "::error::Docs contain non-reader-facing maintenance wording."
+            exit 1
+          fi
