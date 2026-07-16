@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security or private-data concern
+    url: mailto:security@pharmapath.org
+    about: Report account, credential, or sensitive-data concerns privately.
+  - name: General support
+    url: mailto:support@pharmapath.org
+    about: Ask a question that does not belong in a public issue.
