@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a reproducible problem with the public PharmaPath experience.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include prescriptions, insurance details, health records, passwords, tokens, or other private information.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Include the public page, browser/device, and the smallest repeatable sequence.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Public page URL
+      placeholder: https://pharmapath.org/...
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options: [Blocking, Major, Minor, Cosmetic]
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed personal health, prescription, insurance, account, and credential information.
+          required: true
