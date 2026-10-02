@@ -27,7 +27,7 @@ export const TARGET_GENERATED_ALLOWLIST = new Set([
 
 const DISCLOSURE_PATTERNS = [
   /\b(?:gh[pousr]_[A-Za-z0-9_]{20,}|github_pat_[A-Za-z0-9_]{20,})\b/,
-  /https:\/\/(?:canary\.|ptb\.)?discord(?:app)?\.com\/api\/webhooks\//,
+  /https:\/\/[^/\s]+\/api\/webhooks\//,
   /-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/,
   /\bAIza[0-9A-Za-z_-]{35}\b/,
   /\b(?:DATABASE_URL|FIREBASE_ADMIN_PRIVATE_KEY|CLOUDFLARE_EMAIL_API_TOKEN|TURNSTILE_SECRET_KEY|VERCEL_TOKEN)\s*=/,
