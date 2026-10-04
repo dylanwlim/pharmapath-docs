@@ -1,20 +1,9 @@
 # How It Works
 
-PharmaPath is easiest to understand from the live product first. This guide gives you a quick map of the current user experience.
+The [product guide](product-guide.md) explains Pharmacy Finder, Medication Lookup, account features, and how to interpret missing or unavailable evidence.
 
-## User Flow
+1. Choose the medication-context or pharmacy-shortlist workflow.
+2. Read the coverage, source, and provider-status information.
+3. Call the pharmacy before traveling, transferring, or assuming availability.
 
-1. Open the live PharmaPath site.
-2. Choose the flow that matches your medication or pharmacy question.
-3. Confirm stock, pricing, substitutions, transfers, and care decisions with the appropriate licensed party.
-
-## What To Look For
-
-- Medication context
-- Pharmacy-pathway guidance
-- Call preparation
-- Product updates
-
-## Support
-
-For corrections or questions, email [dylan@wlim.work](mailto:dylan@wlim.work).
+For browser and account entry, see [setup and access](setup.md).

@@ -25,10 +25,10 @@ A guide to PharmaPath, which helps users organize medication and pharmacy-pathwa
 
 ## What You Can Do
 
-- Medication context
-- Pharmacy-pathway guidance
-- Call preparation
-- Product updates
+- Review medication context and source/coverage limits
+- Build a pharmacy shortlist where nearby search is supported
+- Prepare the questions to confirm directly with a pharmacy
+- Manage account watchlist and notification settings without assuming delivery
 
 ## Who It Helps
 

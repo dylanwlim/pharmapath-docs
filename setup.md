@@ -1,19 +1,9 @@
 # Setup And Access
 
-## Open The Product
+Open [pharmapath.org](https://pharmapath.org) in a current browser. No software installation or personal research-provider API key is required for the hosted public workflows.
 
-[https://pharmapath.org](https://pharmapath.org)
+Use Pharmacy Finder for a pharmacy shortlist or Medication Lookup for medication context. Location permission is optional; use the location-entry controls when permission is denied. Search coverage and provider availability are explained in the result state.
 
-## Current Access
+Sign in for your watchlist, profile, and settings. Follow the on-screen PharmaPath account or DWL Account flow; do not assume the two account sessions are interchangeable. Use only the security methods offered in settings. See the [product guide](product-guide.md) for workflow limits.
 
-Live medication and pharmacy-pathway product.
-
-## Getting Started
-
-1. Open the live PharmaPath site.
-2. Choose the flow that matches your medication or pharmacy question.
-3. Confirm stock, pricing, substitutions, transfers, and care decisions with the appropriate licensed party.
-
-## Need Help
-
-For corrections or questions, email [dylan@wlim.work](mailto:dylan@wlim.work). Include the page URL, the action you were trying, and your browser or device when that helps explain the issue.
+Confirm stock, price, timing, insurance, substitutions, and care decisions with the appropriate licensed party. Send general help requests to [support@pharmapath.org](mailto:support@pharmapath.org) without prescription numbers, health records, passwords, tokens, or cookies.

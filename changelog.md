@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-04
+
+- Explained Pharmacy Finder versus Medication Lookup, supported coverage, source gaps, and explicit unavailable-provider states.
+- Clarified account entry, watchlist/settings, delivery limits, and app-owned privacy controls.
+- Unified help links while preserving the private security-reporting route.
+
 ## 2026-06-23
 
 - Refreshed the guide so the wording is friendlier and easier to scan.
