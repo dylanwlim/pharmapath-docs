@@ -1,6 +1,8 @@
 # Security And Privacy
 
-PharmaPath should be used with the same care you would use for any live website or app.
+PharmaPath account services, external medication sources, pharmacy search, and delivery providers involve network requests. Do not assume the product works offline or that a watchlist setting guarantees delivery.
+
+Account settings provide app-owned export and deletion controls with recent authentication. App deletion does not delete the shared DWL Account. Historical data and provider recovery have separate limits; do not assume that a deletion request proves every historical provider copy has already been removed.
 
 ## Good Habits
 
