@@ -1,19 +1,29 @@
-# Product Guide
+# User guide
 
-PharmaPath helps you decide which pharmacy to call first and review medication context before contacting a pharmacy or care team.
+## Find pharmacies to call
 
-## Choose a workflow
+Open [Pharmacy Finder](https://pharmapath.org/pharmacy-finder), enter your medication and location, and review the pharmacies shown. Use the results to decide whom to contact first.
 
-Use [Pharmacy Finder](https://pharmapath.org/pharmacy-finder) to build a shortlist in supported geographies. Location lookup can resolve places beyond the nearby-search coverage; that does not mean every location has supported medication or pharmacy results. Follow the coverage and provider status shown on the page. If the search provider is unavailable, medication context and an explicit no-listings state are shown instead of invented pharmacies.
+Coverage varies by location. If results are unavailable, follow the notice on the page and try again later. An empty search does not mean that every pharmacy is out of stock.
 
-Use [Medication Lookup](https://pharmapath.org/medication-lookup) when the medication itself is the harder question. Review supported country-specific context, formulation coverage, source dates, and shortage information. Missing evidence is not proof that a medication is unavailable.
+## Look up a medication
 
-## Before you act
+Open [Medication Lookup](https://pharmapath.org/medication-lookup) to review medication details and shortage information. Check the strength, dosage form, country, and date of the information before using it.
 
-Call the pharmacy to confirm the exact strength, dosage form, manufacturer, stock, pickup or transfer timing, final price, insurance outcome, and any substitution. PharmaPath does not verify live shelf inventory or guarantee availability. Clinical decisions belong with qualified professionals.
+Missing or older information does not establish current availability. Ask a pharmacist or clinician about your specific prescription and any substitutions.
 
-## Account features
+## Prepare your call
 
-Sign in for the watchlist, profile, and settings. The sign-in screen distinguishes the PharmaPath account from the shared DWL Account handoff. Settings includes account-security and passkey management; use the methods offered by the current product. Notification settings do not prove that email or push delivery is available: delivery requires a working provider and permission, and provider availability can change.
+Have the medication name, strength, and dosage form ready. Ask the pharmacy to confirm:
 
-See [setup and access](setup.md), [methodology](https://pharmapath.org/methodology), and [security and privacy](security-and-privacy.md).
+- Whether it can fill the exact prescription.
+- The final price and insurance coverage.
+- Pickup timing and any transfer requirements.
+
+Confirm these details before traveling. Search results do not guarantee live inventory or a completed transfer.
+
+## Keep a watchlist
+
+Sign in to manage your watchlist, profile, and notification preferences. Check the status shown in the app after changing a setting. Enabled notifications do not guarantee that an alert will arrive; contact a pharmacy directly when timing matters.
+
+[Quick start](setup.md) · [Help and FAQ](faq.md) · [Privacy and your data](security-and-privacy.md)

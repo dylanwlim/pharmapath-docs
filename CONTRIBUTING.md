@@ -1,12 +1,9 @@
-# Contributing
+# Feedback guidelines
 
-Use this public repository for public documentation feedback, reproducible product bugs, and feature ideas. PharmaPath source code, infrastructure, provider configuration, and operational discussions stay in the private source repository.
+Help improve PharmaPath by reporting a problem, correcting a guide, or suggesting a feature.
 
-Before opening an issue:
+For a useful report, include the page, browser or device, steps to repeat the problem, and what you expected. Check existing issues first so related feedback stays together.
 
-- reproduce the problem on the public site;
-- include the page, browser/device, expected result, and smallest repeatable steps;
-- remove prescription numbers, insurance data, health records, pharmacy account details, email addresses, access tokens, and screenshots containing private information;
-- send security or private-data concerns to [security@pharmapath.org](mailto:security@pharmapath.org), not a public issue.
+Remove personal health, prescription, insurance, and account information from examples and screenshots. Email sensitive concerns to [security@pharmapath.org](mailto:security@pharmapath.org).
 
-Public reports are acknowledged and then triaged into the private engineering workflow when implementation detail is needed. A public report may be closed with a public outcome while private remediation continues.
+[Report a problem](https://github.com/dylanwlim/pharmapath-docs/issues/new?template=bug.yml) · [Suggest an improvement](https://github.com/dylanwlim/pharmapath-docs/issues/new?template=feature.yml) · [Community conduct](CODE_OF_CONDUCT.md)

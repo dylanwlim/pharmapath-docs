@@ -1,5 +1,5 @@
 name: Feature request
-description: Suggest a public-product or documentation improvement.
+description: Suggest an improvement to PharmaPath or its guides.
 title: "[Feature]: "
 labels: [enhancement]
 body:
@@ -17,7 +17,7 @@ body:
     id: outcome
     attributes:
       label: Helpful outcome
-      description: What would a useful, truthful result look like?
+      description: What would you like to be able to do?
     validations:
       required: true
   - type: textarea
