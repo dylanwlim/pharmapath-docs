@@ -1,9 +1,13 @@
-# Setup And Access
+# Quick start
 
-Open [pharmapath.org](https://pharmapath.org) in a current browser. No software installation or personal research-provider API key is required for the hosted public workflows.
+1. Open [PharmaPath](https://pharmapath.org) in a current browser.
+2. Choose **Pharmacy Finder** to find pharmacies to call, or **Medication Lookup** to review a medication.
+3. Enter the requested details. You can enter a location manually if you prefer not to share your current location.
+4. Read the results, including any coverage or availability notices.
+5. Contact the pharmacy to confirm the details before traveling or arranging a transfer.
 
-Use Pharmacy Finder for a pharmacy shortlist or Medication Lookup for medication context. Location permission is optional; use the location-entry controls when permission is denied. Search coverage and provider availability are explained in the result state.
+Search is available without signing in. Sign in when you want to use your watchlist, profile, or settings, and follow the account prompts on the screen.
 
-Sign in for your watchlist, profile, and settings. Follow the on-screen PharmaPath account or DWL Account flow; do not assume the two account sessions are interchangeable. Use only the security methods offered in settings. See the [product guide](product-guide.md) for workflow limits.
+You need an internet connection. No app installation is required.
 
-Confirm stock, price, timing, insurance, substitutions, and care decisions with the appropriate licensed party. Send general help requests to [support@pharmapath.org](mailto:support@pharmapath.org) without prescription numbers, health records, passwords, tokens, or cookies.
+[User guide](product-guide.md) · [Help and FAQ](faq.md) · [Back to PharmaPath](README.md)

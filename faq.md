@@ -1,25 +1,27 @@
-# FAQ
+# Help and FAQ
 
-## Is PharmaPath medical advice?
+## Does a result mean the medication is in stock?
 
-No. It helps organize medication context and pharmacy next steps. Clinical decisions belong with qualified professionals.
+No. Call the pharmacy to confirm the exact medication, availability, price, insurance coverage, and pickup timing.
 
-## Does PharmaPath guarantee availability?
+## Why are no pharmacies shown?
 
-No. Confirm stock, exact formulation, price, insurance, pickup timing, and substitutions directly with the pharmacy or care team.
-
-## Why are there no pharmacy listings?
-
-Nearby search has specific geographic coverage and depends on a configured provider. An unavailable provider or unsupported location can show an explicit no-listings state; this is not evidence that no pharmacy has the medication.
+Your location may be outside supported coverage, or search may be temporarily unavailable. Check the notice on the page. You can try another nearby location or contact pharmacies directly.
 
 ## Do I need an account?
 
-Public medication and pharmacy workflows are available without sign-in. Watchlist, profile, and settings require sign-in. Follow the on-screen PharmaPath or DWL Account flow.
+You can search without signing in. Your watchlist, profile, and settings require sign-in.
 
-## Are alerts guaranteed?
+## Why have I not received a notification?
 
-No. A saved watch or enabled setting does not prove provider delivery, browser permission, or current medication evidence. Use the status shown by the product and contact your pharmacy for urgent needs.
+Check your notification preferences and any permission prompts or status messages. An enabled setting does not guarantee delivery. Contact your pharmacy directly for time-sensitive needs.
 
-## How do I send a correction?
+## Can PharmaPath recommend a treatment or substitution?
 
-Use the public issue forms for non-sensitive feedback or email [support@pharmapath.org](mailto:support@pharmapath.org). Send account, credential, and private-data concerns privately to [security@pharmapath.org](mailto:security@pharmapath.org).
+Discuss treatment decisions with a qualified clinician or pharmacist. PharmaPath helps you review information and prepare questions.
+
+## How do I report a problem or correction?
+
+[Report a problem](https://github.com/dylanwlim/pharmapath-docs/issues/new?template=bug.yml) with the page, browser, what happened, and what you expected. Remove personal information from screenshots. For account help, email [support@pharmapath.org](mailto:support@pharmapath.org). Send sensitive concerns to [security@pharmapath.org](mailto:security@pharmapath.org).
+
+[Quick start](setup.md) · [User guide](product-guide.md) · [Back to PharmaPath](README.md)

@@ -1,39 +1,30 @@
 # PharmaPath
 
+Find pharmacies to contact and review medication information before your next call.
+
+**[Open PharmaPath](https://pharmapath.org)** · [Quick start](setup.md) · [User guide](product-guide.md) · [Help](faq.md)
+
 <p align="center">
-  <a href="https://pharmapath.org"><img src="assets/homepage.png" alt="PharmaPath homepage screenshot" width="900"></a>
+  <a href="https://pharmapath.org"><img src="assets/homepage.png" alt="PharmaPath with Pharmacy Finder and Medication Lookup" width="900"></a>
 </p>
 
-A guide to PharmaPath, which helps users organize medication and pharmacy-pathway context before contacting pharmacies or care teams.
+## What you can do
 
-**Live site:** [https://pharmapath.org](https://pharmapath.org)
+- Build a shortlist of nearby pharmacies in supported areas.
+- Review medication details and shortage information.
+- Save a watchlist and manage your notification preferences.
 
-**Status:** Live medication and pharmacy-pathway product.
+Confirm availability, price, insurance, and pickup timing directly with the pharmacy. PharmaPath provides information to help you prepare; it does not provide medical advice or guarantee stock.
 
-## Start Here
+## Guides and support
 
-- [Product guide](product-guide.md)
-- [How it works](how-it-works.md)
-- [Setup and access](setup.md)
-- [FAQ](faq.md)
-- [Security and privacy](security-and-privacy.md)
-- [Roadmap](roadmap.md)
-- [Changelog](changelog.md)
-- [Testing guide](testing.md)
-- [Contributing](CONTRIBUTING.md)
-- [Community conduct](CODE_OF_CONDUCT.md)
+| Guide | Find what you need |
+| --- | --- |
+| [Quick start](setup.md) | Open the site, search, and sign in. |
+| [User guide](product-guide.md) | Choose a search and prepare your pharmacy call. |
+| [Help and FAQ](faq.md) | Understand results and troubleshoot common problems. |
+| [Privacy and your data](security-and-privacy.md) | Manage your account data and get private help. |
 
-## What You Can Do
+[Report a problem](https://github.com/dylanwlim/pharmapath-docs/issues/new?template=bug.yml) · [Suggest an improvement](https://github.com/dylanwlim/pharmapath-docs/issues/new?template=feature.yml) · [Contact support](mailto:support@pharmapath.org)
 
-- Review medication context and source/coverage limits
-- Build a pharmacy shortlist where nearby search is supported
-- Prepare the questions to confirm directly with a pharmacy
-- Manage account watchlist and notification settings without assuming delivery
-
-## Who It Helps
-
-People comparing medication-access next steps before contacting pharmacies or clinicians.
-
-## Get Help
-
-Use the public [bug report](https://github.com/dylanwlim/pharmapath-docs/issues/new?template=bug.yml) or [feature request](https://github.com/dylanwlim/pharmapath-docs/issues/new?template=feature.yml) forms for non-sensitive feedback. Email [support@pharmapath.org](mailto:support@pharmapath.org) for general help or [security@pharmapath.org](mailto:security@pharmapath.org) for security and private-data concerns.
+See [feedback guidelines](CONTRIBUTING.md) and [community conduct](CODE_OF_CONDUCT.md).
