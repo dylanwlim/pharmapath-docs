@@ -1,7 +1,9 @@
-# Community Conduct
+# Community conduct
 
-Be respectful, specific, and focused on improving the product. Harassment, discrimination, threats, spam, impersonation, credential sharing, and publication of another person’s private information are not allowed.
+Be respectful, specific, and focused on helping others. Harassment, discrimination, threats, spam, impersonation, and sharing someone else's private information are not welcome.
 
-Do not use community channels for urgent medical guidance or claims of guaranteed medication inventory. Contact a clinician, pharmacy, or emergency service as appropriate.
+Keep reports and examples free of personal health and account details. Community discussions cannot provide urgent medical help; contact your pharmacy, clinician, or emergency service when needed.
 
-Moderators may edit or remove sensitive material, lock disruptive threads, restrict accounts, and preserve evidence needed for a security or safety response. Report private concerns to [security@pharmapath.org](mailto:security@pharmapath.org).
+Moderators may remove sensitive material or disruptive content and restrict participation. Report a private concern to [security@pharmapath.org](mailto:security@pharmapath.org).
+
+[Feedback guidelines](CONTRIBUTING.md) · [Back to PharmaPath](README.md)

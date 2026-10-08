@@ -1,15 +1,16 @@
-# Security And Privacy
+# Privacy and your data
 
-PharmaPath account services, external medication sources, pharmacy search, and delivery providers involve network requests. Do not assume the product works offline or that a watchlist setting guarantees delivery.
+## Manage your account
 
-Account settings provide app-owned export and deletion controls with recent authentication. App deletion does not delete the shared DWL Account. Historical data and provider recovery have separate limits; do not assume that a deletion request proves every historical provider copy has already been removed.
+Use **Settings** to review your account preferences and the available export and deletion options. You may be asked to sign in again before sensitive changes.
 
-## Good Habits
+Deleting your PharmaPath data does not delete your shared DWL Account. Read the confirmation screen for what the action covers and any retention limits before continuing.
 
-- Avoid posting prescription numbers, insurance information, health records, or pharmacy account details in GitHub issues.
-- Use only the minimum context needed when asking for help.
-- Confirm urgent medical questions with a clinician or pharmacy directly.
+## Ask for help safely
 
-## Reporting A Concern
+Keep prescription numbers, insurance details, health records, passwords, and personal account information out of public issues and screenshots. A short description of the problem is usually enough to start.
 
-Email [security@pharmapath.org](mailto:security@pharmapath.org) for account, credential, or private-data concerns. Do not open a public issue for sensitive material. For non-sensitive product corrections, use the public issue forms.
+- General help: [support@pharmapath.org](mailto:support@pharmapath.org).
+- Account-security or sensitive-data concerns: [security@pharmapath.org](mailto:security@pharmapath.org).
+
+[User guide](product-guide.md) · [Help and FAQ](faq.md) · [Back to PharmaPath](README.md)

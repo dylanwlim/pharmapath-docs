@@ -4,13 +4,9 @@ import path from "node:path";
 export const SOURCE_ALLOWLIST = new Set([
   "README.md",
   "product-guide.md",
-  "how-it-works.md",
   "setup.md",
   "faq.md",
   "security-and-privacy.md",
-  "roadmap.md",
-  "changelog.md",
-  "testing.md",
   "CONTRIBUTING.md",
   "CODE_OF_CONDUCT.md",
   "assets/homepage.png",
@@ -30,7 +26,7 @@ const DISCLOSURE_PATTERNS = [
   /https:\/\/[^/\s]+\/api\/webhooks\//,
   /-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/,
   /\bAIza[0-9A-Za-z_-]{35}\b/,
-  /\b(?:DATABASE_URL|FIREBASE_ADMIN_PRIVATE_KEY|CLOUDFLARE_EMAIL_API_TOKEN|TURNSTILE_SECRET_KEY|VERCEL_TOKEN)\s*=/,
+  /\b(?:DATABASE_URL|[A-Z][A-Z0-9_]*(?:TOKEN|SECRET|PRIVATE_KEY))\s*=/,
 ];
 
 async function walk(root, current = "") {
@@ -78,6 +74,14 @@ export async function validatePublicTree(root, { target = false } = {}) {
     }
     const text = buffer.toString("utf8");
     if (text.includes("\0")) errors.push(`binary content is forbidden: ${file}`);
+    if (file.endsWith(".md")) {
+      const links = [...text.matchAll(/!?\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)].map((match) => match[1]);
+      for (const link of links) {
+        if (/^(?:https?:|mailto:|#)/i.test(link)) continue;
+        const destination = path.posix.normalize(path.posix.join(path.posix.dirname(file), link.split("#")[0]));
+        if (!files.includes(destination)) errors.push(`broken link in ${file}: ${link}`);
+      }
+    }
     if (DISCLOSURE_PATTERNS.some((pattern) => pattern.test(text))) errors.push(`potential secret disclosure: ${file}`);
   }
 

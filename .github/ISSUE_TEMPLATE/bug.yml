@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a reproducible problem with the public PharmaPath experience.
+description: Report a reproducible problem using PharmaPath.
 title: "[Bug]: "
 labels: [bug]
 body:
@@ -17,13 +17,13 @@ body:
     id: steps
     attributes:
       label: Reproduction steps
-      description: Include the public page, browser/device, and the smallest repeatable sequence.
+      description: Include the page, browser/device, and steps to repeat the problem.
     validations:
       required: true
   - type: input
     id: page
     attributes:
-      label: Public page URL
+      label: Page URL
       placeholder: https://pharmapath.org/...
   - type: dropdown
     id: impact
