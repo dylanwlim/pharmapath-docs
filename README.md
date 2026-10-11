@@ -1,30 +1,24 @@
 # PharmaPath
 
-Find pharmacies to contact and review medication information before your next call.
+PharmaPath was retired on October 11, 2026. Its public website preserves the project overview; interactive services are no longer available.
 
-**[Open PharmaPath](https://pharmapath.org)** · [Quick start](setup.md) · [User guide](product-guide.md) · [Help](faq.md)
+**[Visit PharmaPath](https://pharmapath.org)** · [Using the preserved site](setup.md) · [Help](faq.md)
 
 <p align="center">
-  <a href="https://pharmapath.org"><img src="assets/homepage.png" alt="PharmaPath with Pharmacy Finder and Medication Lookup" width="900"></a>
+  <a href="https://pharmapath.org"><img src="assets/homepage.png" alt="Preserved PharmaPath overview" width="900"></a>
 </p>
 
-## What you can do
+## What remains available
 
-- Build a shortlist of nearby pharmacies in supported areas.
-- Review medication details and shortage information.
-- Save a watchlist and manage your notification preferences.
+You can view the preserved overview. Product actions show a retirement notice. Pharmacy search, medication lookup, sign-in, watchlists, account settings, notifications, and form submissions are unavailable.
 
-Confirm availability, price, insurance, and pickup timing directly with the pharmacy. PharmaPath provides information to help you prepare; it does not provide medical advice or guarantee stock.
+The overview describes the former product. It does not provide current medication information, live pharmacy inventory, or medical advice. Contact pharmacies directly about availability, price, insurance, and pickup timing.
 
-## Guides and support
+## Help
 
-| Guide | Find what you need |
-| --- | --- |
-| [Quick start](setup.md) | Open the site, search, and sign in. |
-| [User guide](product-guide.md) | Choose a search and prepare your pharmacy call. |
-| [Help and FAQ](faq.md) | Understand results and troubleshoot common problems. |
-| [Privacy and your data](security-and-privacy.md) | Manage your account data and get private help. |
+- [Using the preserved site](setup.md)
+- [User guide](product-guide.md)
+- [Help and FAQ](faq.md)
+- [Privacy and your data](security-and-privacy.md)
 
-[Report a problem](https://github.com/dylanwlim/pharmapath-docs/issues/new?template=bug.yml) · [Suggest an improvement](https://github.com/dylanwlim/pharmapath-docs/issues/new?template=feature.yml) · [Contact support](mailto:support@pharmapath.org)
-
-See [feedback guidelines](CONTRIBUTING.md) and [community conduct](CODE_OF_CONDUCT.md).
+[Report a website or guide problem](https://github.com/dylanwlim/pharmapath-docs/issues/new?template=bug.yml) · [Feedback guidelines](CONTRIBUTING.md) · [Community conduct](CODE_OF_CONDUCT.md)
