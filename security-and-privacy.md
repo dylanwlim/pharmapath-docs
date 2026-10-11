@@ -1,16 +1,18 @@
 # Privacy and your data
 
-## Manage your account
+## Retired website
 
-Use **Settings** to review your account preferences and the available export and deletion options. You may be asked to sign in again before sensitive changes.
+PharmaPath was retired on October 11, 2026. The preserved website does not authenticate users, perform searches, submit forms, or provide account settings, data export, or deletion tools.
 
-Deleting your PharmaPath data does not delete your shared DWL Account. Read the confirmation screen for what the action covers and any retention limits before continuing.
+Retirement does not establish that historical account data has been deleted. A shared DWL Account is separate from PharmaPath; retirement does not delete that shared identity.
 
 ## Ask for help safely
 
-Keep prescription numbers, insurance details, health records, passwords, and personal account information out of public issues and screenshots. A short description of the problem is usually enough to start.
+Keep prescription numbers, insurance details, health records, passwords, and personal account information out of public issues and screenshots.
 
-- General help: [support@pharmapath.org](mailto:support@pharmapath.org).
+- Questions about former PharmaPath data: [support@pharmapath.org](mailto:support@pharmapath.org).
 - Account-security or sensitive-data concerns: [security@pharmapath.org](mailto:security@pharmapath.org).
+
+These contact links do not establish response or delivery guarantees. Do not send passwords or complete medical records.
 
 [User guide](product-guide.md) · [Help and FAQ](faq.md) · [Back to PharmaPath](README.md)
