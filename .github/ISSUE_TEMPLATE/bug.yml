@@ -1,11 +1,11 @@
 name: Bug report
-description: Report a reproducible problem using PharmaPath.
+description: Report a problem with the preserved website or retirement guides.
 title: "[Bug]: "
 labels: [bug]
 body:
   - type: markdown
     attributes:
-      value: Do not include prescriptions, insurance details, health records, passwords, tokens, or other private information.
+      value: PharmaPath is retired; interactive services are unavailable. Do not include prescriptions, insurance details, health records, passwords, tokens, or other private information.
   - type: textarea
     id: summary
     attributes:

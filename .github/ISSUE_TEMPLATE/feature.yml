@@ -1,11 +1,11 @@
-name: Feature request
-description: Suggest an improvement to PharmaPath or its guides.
-title: "[Feature]: "
+name: Guide correction
+description: Suggest a correction to the retirement guides or preserved website.
+title: "[Guide]: "
 labels: [enhancement]
 body:
   - type: markdown
     attributes:
-      value: Describe the user need without sharing personal health or account information.
+      value: PharmaPath is retired and interactive feature development has ended. Suggest a guide or preserved-site correction without sharing personal health or account information.
   - type: textarea
     id: need
     attributes:
@@ -17,7 +17,7 @@ body:
     id: outcome
     attributes:
       label: Helpful outcome
-      description: What would you like to be able to do?
+      description: What information or presentation should be corrected?
     validations:
       required: true
   - type: textarea

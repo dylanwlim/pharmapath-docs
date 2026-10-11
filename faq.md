@@ -1,27 +1,23 @@
 # Help and FAQ
 
-## Does a result mean the medication is in stock?
+## What happened to PharmaPath?
 
-No. Call the pharmacy to confirm the exact medication, availability, price, insurance coverage, and pickup timing.
+PharmaPath was retired on October 11, 2026. The website preserves the project overview, and its interactive services are no longer available.
 
-## Why are no pharmacies shown?
+## Can I search, sign in, or use my watchlist?
 
-Your location may be outside supported coverage, or search may be temporarily unavailable. Check the notice on the page. You can try another nearby location or contact pharmacies directly.
+No. Pharmacy search, medication lookup, sign-in, watchlists, account settings, notifications, and form submissions are unavailable. Product actions display a retirement notice.
 
-## Do I need an account?
+## Does the overview show current medication availability?
 
-You can search without signing in. Your watchlist, profile, and settings require sign-in.
+No. Contact pharmacies directly to confirm the exact medication, availability, price, insurance coverage, and pickup timing. Ask a qualified clinician or pharmacist about treatment or substitutions.
 
-## Why have I not received a notification?
+## Can I manage my former account on the website?
 
-Check your notification preferences and any permission prompts or status messages. An enabled setting does not guarantee delivery. Contact your pharmacy directly for time-sensitive needs.
+Account tools are unavailable. For questions about former PharmaPath data, see [Privacy and your data](security-and-privacy.md). Retirement does not establish that historical data has been deleted.
 
-## Can PharmaPath recommend a treatment or substitution?
+## How do I report a website or guide problem?
 
-Discuss treatment decisions with a qualified clinician or pharmacist. PharmaPath helps you review information and prepare questions.
+[Report a problem](https://github.com/dylanwlim/pharmapath-docs/issues/new?template=bug.yml) with the page, browser, and what happened. Remove personal information from screenshots. Send sensitive concerns to [security@pharmapath.org](mailto:security@pharmapath.org).
 
-## How do I report a problem or correction?
-
-[Report a problem](https://github.com/dylanwlim/pharmapath-docs/issues/new?template=bug.yml) with the page, browser, what happened, and what you expected. Remove personal information from screenshots. For account help, email [support@pharmapath.org](mailto:support@pharmapath.org). Send sensitive concerns to [security@pharmapath.org](mailto:security@pharmapath.org).
-
-[Quick start](setup.md) · [User guide](product-guide.md) · [Back to PharmaPath](README.md)
+[Using the preserved site](setup.md) · [User guide](product-guide.md) · [Back to PharmaPath](README.md)
