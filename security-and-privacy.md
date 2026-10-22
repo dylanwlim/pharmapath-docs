@@ -4,7 +4,7 @@
 
 PharmaPath was retired on October 11, 2026. The preserved website does not authenticate users, perform searches, submit forms, or provide account settings, data export, or deletion tools.
 
-Retirement does not establish that historical account data has been deleted. A shared DWL Account is separate from PharmaPath; retirement does not delete that shared identity.
+Retirement does not establish that historical account data has been deleted. A shared Adenine account is separate from PharmaPath; retirement does not delete that shared identity.
 
 ## Ask for help safely
 
