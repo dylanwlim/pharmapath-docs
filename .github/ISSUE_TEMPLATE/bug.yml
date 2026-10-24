@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a problem with the preserved website or retirement guides.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: PharmaPath is retired; interactive services are unavailable. Do not include prescriptions, insurance details, health records, passwords, tokens, or other private information.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Include the page, browser/device, and steps to repeat the problem.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://pharmapath.org/...
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options: [Blocking, Major, Minor, Cosmetic]
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed personal health, prescription, insurance, account, and credential information.
+          required: true
